@@ -1,0 +1,197 @@
+
+@media screen and (max-width: 1162px) {
+    .section_find_content{
+        padding: 2% 2%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .wrapper{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .header_nav_phone{
+        display: flex;
+    }
+    .header_nav{
+        display: none;
+    }
+    .header_nav_div{
+        justify-content: flex-end;
+    }
+}
+@media screen and (max-width: 950px) {
+    .section_find{
+        flex-direction: column;
+    }
+    .section_find_content{
+        width: 100%;
+    }
+    #section_find_content_right{
+        justify-content: center;
+    }
+    #section_find_content_left{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 900px) {
+    .section_home_title{
+        font-size: 38px;
+        line-height: 1.6;
+    }
+    .section_home_title_banana{
+        font-size: 30px;
+    }
+    .section_growing_content_items_rounded_title_h{
+        font-size: 16.2px;
+    }
+    .section_growing_content_items_rounded_title_par{
+        font-size: 9.2px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .section_projects_new{
+        flex-wrap: wrap;
+    }
+    .section_projects_new_item{
+        width: 48%;
+    }
+    .section_projects_new :nth-child(3){
+        margin: 0 auto 20px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .section_home_title{
+        font-size: 28px;
+    }
+    .section_home_title_banana{
+        font-size: 20px;
+    }
+    .section_growing_content_items_rounded_title_h{
+        margin: 0;
+    }
+    .section_works_browse{
+        flex-direction: column-reverse;
+    }
+    .section_works_browse_title{
+        width: 100%;
+    }
+    .section_works_browse_title_color, .section_works_browse_title_par{
+        text-align: center;
+    }
+    .section_works_browse_logo{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .section_growing_content_items_rounded_title{
+        padding: 0;
+    }
+    .section_works_bottom{
+        margin-top: 100px;
+    }
+    .section_works_items{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_works_items_i{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .section_projects_new_item{
+        width: 90%;
+        margin: 20px auto 0;
+    }
+    .section_growing_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_growing_title_heading{
+        font-size: 30px;
+    }
+    .section_growing_title_heading_par{
+        font-size: 13px;
+    }
+    .section_growing_content_items{
+        margin-bottom: 30px;
+    }
+    .section_growing_content_items{
+        width: 80%;
+    }
+    .section_growing_content_items_rounded_title{
+        margin-top: calc(10%);
+    }
+    .section_works_items_i_str{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .section_projects_title_content{
+        flex-direction: column;
+    }
+    .section_projects_title_content_par{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .section_projects_title_but{
+        margin: auto;
+    }
+    .section_find_content{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .section_find_content_img {
+        margin-bottom: 20px;
+    }
+    .section_find_content_find{
+        margin-left: 0;
+        width: 95%;
+        align-items: center;
+    }
+    .section_find_content_find_h2{
+        width: auto;
+    }
+    .section_find_content_find_h3{
+        text-align: center;
+    }
+    .section_works_browse_logo{
+        width: 30%;
+    }
+    .section_works {
+        padding: 60px 0;
+    }
+    .section_works_title_heading_h{
+        line-height: 1.4;
+        font-size: 25px;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .section_works_items_i{
+        width: 90%;
+    }
+    .section_works_par_p:first-child{
+        margin-bottom: 30px;
+    }
+    .section_works_bottom{
+        margin-top: 70px;
+    }
+    .section_projects_heading{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px){
+    .header_logo{
+        align-items: center;
+    }
+    .logo_name{
+        font-size: 22px;
+    }
+    .header_but{
+        width: 80px;
+        padding: 8px 0;
+    }
+}
